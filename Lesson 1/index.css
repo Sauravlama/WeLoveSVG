@@ -1,0 +1,15 @@
+@keyframes move {
+    0% {
+        fill:green;
+        transform: translateX(0);
+    }
+    100%{
+        fill:black;
+        transform: translateX(100px);
+    }
+}
+
+.ball{
+    background-color: green;
+    animation: move 2s 2s 3 alternate ease-in-out forwards;
+}
